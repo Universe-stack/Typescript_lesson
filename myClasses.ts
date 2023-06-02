@@ -50,3 +50,8 @@ class Car {
         return this._make
     }
 }
+
+//INSTANTIATING THE CLASS
+
+let myCar1= new Car('Cool car company','blue',2)
+console.log(myCar1._color)
